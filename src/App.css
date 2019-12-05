@@ -1,0 +1,32 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+
+  --mainDark: #232528;
+  --main-Yellow: #ffa400;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text_title {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+.text_color {
+  color: var(--mainBlue);
+}
+
+.text_bright {
+  color: var(--lightBlue);
+}
+
+.text_white {
+  color: var(--mainWhite);
+}
