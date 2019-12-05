@@ -5,8 +5,6 @@ import { ProductConsumer } from '../context';
 
 export default class ProductList extends Component {
 
-
-
   render() {
     return (
       <>
